@@ -14,8 +14,8 @@ logging:
   file: logs/${spring.application.name}.log
   level:
     com.netflix.discovery: 'DEBUG'
-    org.springframework.cloud: 'INFO'
-    org.springframework.web: 'INFO'
+    org.springframework.cloud: 'DEBUG'
+    org.springframework.web: 'DEBUG'
     com.atsistemas: 'DEBUG'
 
 cygnus:
