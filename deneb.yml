@@ -11,19 +11,19 @@ eureka:
 logging:
   file: logs/${spring.application.name}.log
   level:
-    com.netflix.discovery: 'OFF'
+    com.netflix.discovery: 'DEBUG'
     org.springframework.cloud: 'INFO'
     org.springframework.web: 'INFO'
     com.atsistemas: 'DEBUG'
 
 cygnus:
   sadr:
-    name: SADR
+    name: sadr
     pingUrl: http://${cygnus.sadr.name}/ping/
 
-spring:
-   rabbitmq:
-     host: rabbitmq
-     port: 5672
-     username: guest
-     password: guest
+#spring:
+#   rabbitmq:
+#     host: rabbitmq
+#     port: 5672
+#     username: guest
+#     password: guest
