@@ -1,6 +1,9 @@
 # HTTP Server
 server:
   port: ${PORT:3333}   # HTTP port
+  
+prueba:
+  mensaje: Hola desde configuración en git
 
 # Discovery Server Access
 eureka:
