@@ -23,9 +23,9 @@ cygnus:
     name: sadr
     pingUrl: http://${cygnus.sadr.name}/sadr/ping/
 
-spring:
-   rabbitmq:
-     host: localhost
-     port: 5672
-     username: guest
-     password: guest
+#spring:
+#   rabbitmq:
+#     host: localhost
+#     port: 5672
+#     username: guest
+#     password: guest
